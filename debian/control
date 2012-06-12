@@ -1,7 +1,7 @@
 Source: ros-fuerte-octomap-msgs
 Section: misc
 Priority: extra
-Maintainer: Armin Hornung
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
 Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-catkin,ros-fuerte-common-msgs,ros-fuerte-langs,ros-fuerte-genmsg
 Homepage: http://ros.org/wiki/octomap_msgs
 Standards-Version: 3.9.2
