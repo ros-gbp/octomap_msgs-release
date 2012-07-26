@@ -1,14 +1,14 @@
-Source: ros-fuerte-octomap-msgs
+Source: ros-groovy-octomap-msgs
 Section: misc
 Priority: extra
 Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
-Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-catkin,ros-fuerte-common-msgs,ros-fuerte-langs,ros-fuerte-genmsg
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-common-msgs,ros-groovy-catkin,ros-groovy-genmsg,ros-groovy-langs
 Homepage: http://ros.org/wiki/octomap_msgs
 Standards-Version: 3.9.2
 
-Package: ros-fuerte-octomap-msgs
+Package: ros-groovy-octomap-msgs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-common-msgs
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-common-msgs
 Description: This low-dependency stacks provides messages and basic conversions for the OctoMap library.
  .
  This stack contains the packages:
