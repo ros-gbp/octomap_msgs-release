@@ -1,4 +1,4 @@
-// $Id: conversions.h 3104 2012-09-13 19:04:41Z isucan@willowgarage.com $
+// $Id: conversions.h 3105 2012-09-14 12:05:04Z isucan@willowgarage.com $
 
 /**
  * OctoMap ROS message conversions / [de-] serialization
@@ -45,14 +45,6 @@
 
 // new conversion functions  
 namespace octomap_msgs{
-
-  /** \brief Convert an octomap representation to a new octree. You will need to free the memory. Return NULL on error. */
-  static inline octomap::AbstractOcTree* msgToMap(const Octomap& msg){
-    if (msg.binary)
-      return binaryMsgToMap(msg);
-    else
-      return fullMsgToMap(msg);
-  }
 
   /**
    * @brief Creates a new octree by deserializing from the binary stream mapData,
@@ -111,7 +103,15 @@ namespace octomap_msgs{
     
     return octree;      
   }
-  
+
+  /** \brief Convert an octomap representation to a new octree. You will need to free the memory. Return NULL on error. */
+  static inline octomap::AbstractOcTree* msgToMap(const Octomap& msg){
+    if (msg.binary)
+      return binaryMsgToMap(msg);
+    else
+      return fullMsgToMap(msg);
+  }
+
   // conversions via stringstream
   
   // TODO: read directly into buffer? see
