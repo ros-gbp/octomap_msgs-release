@@ -1,4 +1,4 @@
-// $Id: conversions.h 3105 2012-09-14 12:05:04Z isucan@willowgarage.com $
+// $Id: conversions.h 3776 2013-01-08 15:49:06Z hornunga@informatik.uni-freiburg.de $
 
 /**
  * OctoMap ROS message conversions / [de-] serialization
@@ -99,7 +99,7 @@ namespace octomap_msgs{
     std::stringstream datastream;
     assert(msg.data.size() > 0);
     datastream.write((const char*) &msg.data[0], msg.data.size());
-    octree->readData(datastream);          
+    octree->readBinaryData(datastream);          
     
     return octree;      
   }
