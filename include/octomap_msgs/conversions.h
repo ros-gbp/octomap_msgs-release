@@ -1,4 +1,4 @@
-// $Id: conversions.h 3776 2013-01-08 15:49:06Z hornunga@informatik.uni-freiburg.de $
+// $Id$
 
 /**
  * OctoMap ROS message conversions / [de-] serialization
