@@ -1,0 +1,15 @@
+Source: ros-fuerte-octomap-msgs
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-catkin, ros-fuerte-common-msgs, ros-fuerte-genmsg, ros-fuerte-langs
+Homepage: http://ros.org/wiki/octomap_msgs
+Standards-Version: 3.9.2
+
+Package: ros-fuerte-octomap-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-common-msgs
+Description: This low-dependency stacks provides messages and basic conversions for the OctoMap library.
+ .
+ This stack contains the packages:
+ * /private/var/folders/20/x5r7_bls61x_hvvmg7db4pwh0000gn/T/tmpfUERAd/clone: octomap_msgs - conversions and messages for OctoMap
