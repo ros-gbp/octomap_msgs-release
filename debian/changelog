@@ -1,0 +1,69 @@
+ros-hydro-octomap-msgs (0.3.1-0quantal) quantal; urgency=high
+
+  * Removed [binary|full]MsgDataToMap, created only incomplete OctoMap objects
+    Replacement: use [binary|full]MsgToMap or msgToMap()
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sun, 14 Jul 2013 22:00:00 -0000
+
+ros-hydro-octomap-msgs (0.3.0-0quantal) quantal; urgency=high
+
+  * Removed deprecated conversions
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Mon, 01 Apr 2013 22:00:00 -0000
+
+ros-hydro-octomap-msgs (0.2.9-0quantal) quantal; urgency=high
+
+  * Fix: octree resolution is double, not float
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Wed, 16 Jan 2013 23:00:00 -0000
+
+ros-hydro-octomap-msgs (0.2.8-0quantal) quantal; urgency=high
+
+  * Fixed msg resolution field, binaryMsgToMap
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Mon, 07 Jan 2013 23:00:00 -0000
+
+ros-hydro-octomap-msgs (0.2.7-0quantal) quantal; urgency=high
+
+  * fixed package.xml depends / build_depend
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Wed, 02 Jan 2013 23:00:00 -0000
+
+ros-hydro-octomap-msgs (0.2.6-0quantal) quantal; urgency=high
+
+  * adjusted message generation to recent catkin changes & switched version to 0.2.6
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sun, 16 Dec 2012 23:00:00 -0000
+
+ros-hydro-octomap-msgs (0.2.5-0quantal) quantal; urgency=high
+
+  * more catkin fixing
+  * copyright is not supported for package.xml
+  * moving catkin_package() after generate_messages() per latest changes to catkin
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Fri, 07 Dec 2012 23:00:00 -0000
+
+ros-hydro-octomap-msgs (0.2.3-0quantal) quantal; urgency=high
+
+  * comply to the new catkin API
+  * add function to convert a message to map
+  * changed message format to contain only data, meta information stored in new message fields (untested for Groovy)
+  * documentation, fixes
+  * remove id from message and bump stack version
+  * New octomap_msg (de-) serialization / conversion functions from and to messages; old ones are now deprecated
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Thu, 11 Oct 2012 22:00:00 -0000
+
+ros-hydro-octomap-msgs (0.1.1-0quantal) quantal; urgency=high
+
+  * missing includes added
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Fri, 20 Apr 2012 12:16:00 -0000
+
+ros-hydro-octomap-msgs (0.1.0-0quantal) quantal; urgency=high
+
+  * Turned octomap_msgs and octomap_ros into unary stacks, code in octomap_mapping adjusted
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Fri, 20 Apr 2012 08:22:00 -0000
+
+
