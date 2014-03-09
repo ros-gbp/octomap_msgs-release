@@ -1,3 +1,22 @@
+## octomap_msgs (indigo) - 0.3.1-2
+
+User `hornunga@colorrado` released the packages in the `octomap_msgs` repository into the `indigo` distro by running `/usr/bin/bloom-release octomap_msgs -r indigo -t indigo` on `Sun, 09 Mar 2014 11:02:47 -0000`
+
+The `octomap_msgs` package was released.
+
+Version of package(s) in repository `octomap_msgs`:
+- rosdistro version: `0.3.1-1`
+- old version: `0.3.1-1`
+- new version: `0.3.1-2`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.24`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.32`
+
+
 ## octomap_msgs - 0.3.1-1
 
 User `isucan@isucan-glaptop0` released the packages in the `octomap_msgs` repository by running `/usr/bin/bloom-release -t indigo -r indigo octomap_msgs` on `Sun, 16 Feb 2014 11:05:30 -0000`
