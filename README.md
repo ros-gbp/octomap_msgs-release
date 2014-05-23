@@ -1,3 +1,22 @@
+## octomap_msgs (groovy) - 0.2.9-0
+
+The packages in the `octomap_msgs` repository were released into the `groovy` distro by running `/usr/bin/bloom-release --track convert --ros-distro groovy octomap_msgs` on `Fri, 23 May 2014 08:25:44 -0000`
+
+The `octomap_msgs` package was released.
+
+Version of package(s) in repository `octomap_msgs`:
+- rosdistro version: `0.2.9-0`
+- old version: `null`
+- new version: `0.2.9-0`
+
+Versions of tools used:
+- bloom version: `0.5.9`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.32`
+
+
 ## octomap_msgs (indigo) - 0.3.1-4
 
 User `hornunga@colorrado` released the packages in the `octomap_msgs` repository into the `indigo` distro by running `/usr/bin/bloom-release octomap_msgs -r indigo -t indigo` on `Sun, 09 Mar 2014 11:10:04 -0000`
