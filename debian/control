@@ -1,0 +1,12 @@
+Source: ros-groovy-octomap-msgs
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-std-msgs
+Homepage: http://ros.org/wiki/octomap_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-octomap-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-std-msgs
+Description: This package provides messages and serializations / conversion for the OctoMap library.
