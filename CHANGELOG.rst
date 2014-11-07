@@ -2,6 +2,11 @@
 Changelog for package octomap_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2014-11-07)
+------------------
+* Fixing issue octomap_rviz_plugins/#10: Allow deserializing an empty octree
+* Contributors: Armin Hornung
+
 0.3.1 (2013-07-15)
 ------------------
 * Removed [binary|full]MsgDataToMap, created only incomplete OctoMap objects
