@@ -1,3 +1,26 @@
+## octomap_msgs (kinetic) - 0.3.2-0
+
+The packages in the `octomap_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic octomap_msgs` on `Tue, 29 Mar 2016 16:58:01 -0000`
+
+The `octomap_msgs` package was released.
+
+Version of package(s) in repository `octomap_msgs`:
+
+- upstream repository: https://github.com/OctoMap/octomap_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.5`
+- vcstools version: `0.1.38`
+
+
 ## octomap_msgs (jade) - 0.3.2-0
 
 The packages in the `octomap_msgs` repository were released into the `jade` distro by running `/usr/bin/bloom-release octomap_msgs --track jade --rosdistro jade --new-track` on `Wed, 22 Apr 2015 19:21:08 -0000`
