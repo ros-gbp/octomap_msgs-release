@@ -1,3 +1,26 @@
+## octomap_msgs (indigo) - 0.3.3-0
+
+The packages in the `octomap_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo octomap_msgs` on `Mon, 13 Jun 2016 18:38:43 -0000`
+
+The `octomap_msgs` package was released.
+
+Version of package(s) in repository `octomap_msgs`:
+
+- upstream repository: https://github.com/OctoMap/octomap_msgs.git
+- release repository: https://github.com/ros-gbp/octomap_msgs-release.git
+- rosdistro version: `0.3.2-0`
+- old version: `0.3.2-0`
+- new version: `0.3.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.5`
+- vcstools version: `0.1.38`
+
+
 ## octomap_msgs (jade) - 0.3.3-0
 
 The packages in the `octomap_msgs` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade octomap_msgs` on `Sat, 11 Jun 2016 21:06:07 -0000`
