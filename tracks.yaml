@@ -143,7 +143,9 @@ tracks:
       --replace
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
-      -i :{release_inc}
+      -i :{release_inc} --os-name ubuntu
+    - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
+      -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: melodic-devel
@@ -151,7 +153,7 @@ tracks:
     name: upstream
     patches: null
     release_inc: '0'
-    release_repo_url: null
+    release_repo_url: git@github.com:ros-gbp/octomap_msgs-release.git
     release_tag: :{version}
     ros_distro: melodic
     vcs_type: git
