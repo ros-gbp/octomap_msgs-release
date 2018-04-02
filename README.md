@@ -1,3 +1,26 @@
+## octomap_msgs (melodic) - 0.3.3-1
+
+The packages in the `octomap_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic -e --ros-distro melodic octomap_msgs` on `Mon, 02 Apr 2018 19:10:35 -0000`
+
+The `octomap_msgs` package was released.
+
+Version of package(s) in repository `octomap_msgs`:
+
+- upstream repository: https://github.com/OctoMap/octomap_msgs.git
+- release repository: https://github.com/ros-gbp/octomap_msgs-release.git
+- rosdistro version: `0.3.3-0`
+- old version: `0.3.3-0`
+- new version: `0.3.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.4`
+- vcstools version: `0.1.38`
+
+
 ## octomap_msgs (melodic) - 0.3.3-0
 
 The packages in the `octomap_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --ros-distro melodic octomap_msgs` on `Mon, 02 Apr 2018 09:33:02 -0000`
