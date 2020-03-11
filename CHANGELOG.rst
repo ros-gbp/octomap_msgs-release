@@ -2,6 +2,11 @@
 Changelog for package octomap_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.4 (2020-03-11)
+------------------
+* Bump CMake version to avoid CMP0048 (`#14 <https://github.com/OctoMap/octomap_msgs/issues/14>`_)
+* Contributors: Shane Loretz
+
 0.3.3 (2016-06-11)
 ------------------
 * Fix for binary ColorOcTrees messages
