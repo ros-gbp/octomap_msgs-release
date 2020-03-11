@@ -1,0 +1,91 @@
+ros-noetic-octomap-msgs (0.3.4-1buster) buster; urgency=high
+
+  * Bump CMake version to avoid CMP0048 (#14 <https://github.com/OctoMap/octomap_msgs/issues/14>)
+  * Contributors: Shane Loretz
+
+ -- Armin Hornung <armin@hornung.io>  Wed, 11 Mar 2020 00:00:00 -0000
+
+ros-noetic-octomap-msgs (0.3.3-1buster) buster; urgency=high
+
+  * Fix for binary ColorOcTrees messages
+  * Removed check for "OcTree" id in binary deserialization, see Issue #4 <https://github.com/OctoMap/octomap_msgs/issues/4> and #5 <https://github.com/OctoMap/octomap_msgs/issues/5>
+  * Contributors: Armin Hornung, Felix Endres
+
+ -- Armin Hornung <armin@hornung.io>  Fri, 10 Jun 2016 23:00:00 -0000
+
+ros-noetic-octomap-msgs (0.3.2-1buster) buster; urgency=high
+
+  * Fixing issue octomap_rviz_plugins/#10: Allow deserializing an empty octree
+  * Contributors: Armin Hornung
+
+ -- Armin Hornung <armin@hornung.io>  Fri, 07 Nov 2014 00:00:00 -0000
+
+ros-noetic-octomap-msgs (0.3.1-1buster) buster; urgency=high
+
+  * Removed [binary|full]MsgDataToMap, created only incomplete OctoMap objects
+    Replacement: use [binary|full]MsgToMap or msgToMap()
+
+ -- Armin Hornung <armin@hornung.io>  Sun, 14 Jul 2013 23:00:00 -0000
+
+ros-noetic-octomap-msgs (0.3.0-1buster) buster; urgency=high
+
+  * Removed deprecated conversions
+
+ -- Armin Hornung <armin@hornung.io>  Mon, 01 Apr 2013 23:00:00 -0000
+
+ros-noetic-octomap-msgs (0.2.9-1buster) buster; urgency=high
+
+  * Fix: octree resolution is double, not float
+
+ -- Armin Hornung <armin@hornung.io>  Thu, 17 Jan 2013 00:00:00 -0000
+
+ros-noetic-octomap-msgs (0.2.8-1buster) buster; urgency=high
+
+  * Fixed msg resolution field, binaryMsgToMap
+
+ -- Armin Hornung <armin@hornung.io>  Tue, 08 Jan 2013 00:00:00 -0000
+
+ros-noetic-octomap-msgs (0.2.7-1buster) buster; urgency=high
+
+  * fixed package.xml depends / build_depend
+
+ -- Armin Hornung <armin@hornung.io>  Thu, 03 Jan 2013 00:00:00 -0000
+
+ros-noetic-octomap-msgs (0.2.6-1buster) buster; urgency=high
+
+  * adjusted message generation to recent catkin changes & switched version to 0.2.6
+
+ -- Armin Hornung <armin@hornung.io>  Mon, 17 Dec 2012 00:00:00 -0000
+
+ros-noetic-octomap-msgs (0.2.5-1buster) buster; urgency=high
+
+  * more catkin fixing
+  * copyright is not supported for package.xml
+  * moving catkin_package() after generate_messages() per latest changes to catkin
+
+ -- Armin Hornung <armin@hornung.io>  Sat, 08 Dec 2012 00:00:00 -0000
+
+ros-noetic-octomap-msgs (0.2.3-1buster) buster; urgency=high
+
+  * comply to the new catkin API
+  * add function to convert a message to map
+  * changed message format to contain only data, meta information stored in new message fields (untested for Groovy)
+  * documentation, fixes
+  * remove id from message and bump stack version
+  * New octomap_msg (de-) serialization / conversion functions from and to messages; old ones are now deprecated
+
+ -- Armin Hornung <armin@hornung.io>  Thu, 11 Oct 2012 23:00:00 -0000
+
+ros-noetic-octomap-msgs (0.1.1-1buster) buster; urgency=high
+
+  * missing includes added
+
+ -- Armin Hornung <armin@hornung.io>  Fri, 20 Apr 2012 13:16:00 -0000
+
+ros-noetic-octomap-msgs (0.1.0-1buster) buster; urgency=high
+
+  * Turned octomap_msgs and octomap_ros into unary stacks, code in octomap_mapping adjusted
+
+ -- Armin Hornung <armin@hornung.io>  Fri, 20 Apr 2012 09:22:00 -0000
+
+
