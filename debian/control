@@ -1,0 +1,12 @@
+Source: ros-melodic-octomap-msgs
+Section: misc
+Priority: optional
+Maintainer: Armin Hornung <armin@hornung.io>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/octomap_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-octomap-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: This package provides messages and serializations / conversion for the OctoMap library.
