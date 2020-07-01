@@ -2,15 +2,11 @@
 Changelog for package octomap_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.5 (2020-04-23)
+2.0.0 (2020-07-01)
 ------------------
-* Add myself to maintainers
-* Contributors: Wolfgang Merkt
-
-0.3.4 (2020-03-11)
-------------------
-* Bump CMake version to avoid CMP0048 (`#14 <https://github.com/OctoMap/octomap_msgs/issues/14>`_)
-* Contributors: Shane Loretz
+* Change version to 2.0.0 for ROS2; update maintainer
+* Porting to ROS2, based on ROS version 0.3.3 `#13 <https://github.com/OctoMap/octomap_msgs/pull/13>`_
+* Contributors: Yan Yu, Ibai Apellaniz, Henning Kayser, Wolfgang Merkt
 
 0.3.3 (2016-06-11)
 ------------------
