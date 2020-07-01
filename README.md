@@ -1,3 +1,26 @@
+## octomap_msgs (foxy) - 2.0.0-1
+
+The packages in the `octomap_msgs` repository were released into the `foxy` distro by running `/home/wxm/.local/bin/bloom-release octomap_msgs -r foxy` on `Wed, 01 Jul 2020 17:58:39 -0000`
+
+The `octomap_msgs` package was released.
+
+Version of package(s) in repository `octomap_msgs`:
+
+- upstream repository: https://github.com/OctoMap/octomap_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## octomap_msgs (noetic) - 0.3.5-1
 
 The packages in the `octomap_msgs` repository were released into the `noetic` distro by running `/home/wxm/.local/bin/bloom-release -r noetic octomap_msgs` on `Thu, 23 Apr 2020 18:32:04 -0000`
