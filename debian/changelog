@@ -1,0 +1,92 @@
+ros-rolling-octomap-msgs (2.0.0-4noble) noble; urgency=high
+
+  * Change version to 2.0.0 for ROS2; update maintainer
+  * Porting to ROS2, based on ROS version 0.3.3 #13 <https://github.com/OctoMap/octomap_msgs/pull/13>
+  * Contributors: Yan Yu, Ibai Apellaniz, Henning Kayser, Wolfgang Merkt
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Wed, 01 Jul 2020 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.3.3-4noble) noble; urgency=high
+
+  * Fix for binary ColorOcTrees messages
+  * Removed check for "OcTree" id in binary deserialization, see Issue #4 <https://github.com/OctoMap/octomap_msgs/issues/4> and #5 <https://github.com/OctoMap/octomap_msgs/issues/5>
+  * Contributors: Armin Hornung, Felix Endres
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Sat, 11 Jun 2016 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.3.2-4noble) noble; urgency=high
+
+  * Fixing issue octomap_rviz_plugins/#10: Allow deserializing an empty octree
+  * Contributors: Armin Hornung
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Fri, 07 Nov 2014 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.3.1-4noble) noble; urgency=high
+
+  * Removed [binary|full]MsgDataToMap, created only incomplete OctoMap objects
+    Replacement: use [binary|full]MsgToMap or msgToMap()
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Mon, 15 Jul 2013 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.3.0-4noble) noble; urgency=high
+
+  * Removed deprecated conversions
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Tue, 02 Apr 2013 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.2.9-4noble) noble; urgency=high
+
+  * Fix: octree resolution is double, not float
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Thu, 17 Jan 2013 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.2.8-4noble) noble; urgency=high
+
+  * Fixed msg resolution field, binaryMsgToMap
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Tue, 08 Jan 2013 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.2.7-4noble) noble; urgency=high
+
+  * fixed package.xml depends / build_depend
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Thu, 03 Jan 2013 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.2.6-4noble) noble; urgency=high
+
+  * adjusted message generation to recent catkin changes & switched version to 0.2.6
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Mon, 17 Dec 2012 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.2.5-4noble) noble; urgency=high
+
+  * more catkin fixing
+  * copyright is not supported for package.xml
+  * moving catkin_package() after generate_messages() per latest changes to catkin
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Sat, 08 Dec 2012 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.2.3-4noble) noble; urgency=high
+
+  * comply to the new catkin API
+  * add function to convert a message to map
+  * changed message format to contain only data, meta information stored in new message fields (untested for Groovy)
+  * documentation, fixes
+  * remove id from message and bump stack version
+  * New octomap_msg (de-) serialization / conversion functions from and to messages; old ones are now deprecated
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Fri, 12 Oct 2012 00:00:00 -0000
+
+ros-rolling-octomap-msgs (0.1.1-4noble) noble; urgency=high
+
+  * missing includes added
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Fri, 20 Apr 2012 14:16:00 -0000
+
+ros-rolling-octomap-msgs (0.1.0-4noble) noble; urgency=high
+
+  * Turned octomap_msgs and octomap_ros into unary stacks, code in octomap_mapping adjusted
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Fri, 20 Apr 2012 10:22:00 -0000
+
+
